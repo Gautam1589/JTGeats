@@ -1,0 +1,73 @@
+/* responsive */
+
+@media screen and (min-width:320px) and (max-width:600px){
+    #title {
+        margin: 20px 15px;
+        padding: 10px;
+    }
+    .jt{
+        font-size: 1.5rem;
+    }
+    div#cooking img.img3 {
+        width: 100%;
+        margin-left: auto;
+        margin-top: 3rem;
+        max-width: 300px;
+    }
+    #middle {
+        display: block;
+    }
+    #middle::before {
+        position: absolute;
+    
+    }
+    #heading {
+       padding-left:0;
+       /* margin-top:0; */
+       padding-top: 2rem;
+       position: relative;
+    }
+    .allh1 {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 100;
+        font-size: 3.3rem;
+        text-align: center;
+        width: auto;
+    }
+    #cooking {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    #heading p {
+        color: white;
+        width: 100%;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .searchbar {
+        padding-top: 30px;
+        padding-left: 1.8rem;
+    }
+    #heading2 {
+        margin-left: auto;
+        text-align: center;
+    }
+    #middle3 {
+        margin-left: auto;
+    }
+    .img4 {
+        width: 100%;
+        object-fit: cover;
+    }
+    .block {
+        float: unset;
+    }
+    #details{
+        max-width: 90%;
+        margin: auto;
+    }
+   
+}
